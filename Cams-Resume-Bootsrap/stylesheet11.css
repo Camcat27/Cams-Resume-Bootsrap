@@ -1,0 +1,102 @@
+body {
+  font-family: open sans-serif;
+  font-size: 110%;
+  color: #000000;
+  background-color: #fcf7f8;
+  display: flex;
+  flex-direction: column;
+}
+
+.jumbotron {
+  padding-top: 200px;
+  padding-bottom: 20px;
+  height: 500px;
+  text-align: center;
+  color: white;
+  background:linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/me.jpg);
+  background-size:cover;
+}
+
+footer {
+  background-color: #000000;
+  text-align: center;
+  padding: 20px;
+}
+
+#content {
+  width: 80%;
+  margin-left: 50px;
+}
+
+#sidebar {
+  width: 20%;
+  padding: 1rem;
+  background-color: #5db7de;
+  padding-left: 20px;
+}
+
+.picture {
+  border-radius: 50%;
+  border-image: 20%;
+}
+
+img {
+  border-radius: 50%;
+}
+
+label {
+  width: 150px;
+  display: inline-block;
+  text-align: left;
+}
+
+#form-f {
+  width: 600px;
+  display: inline-block;
+  text-align: left;
+  padding-left: 40px;
+}
+
+.button-submit {
+  width: 100px;
+  line-height: 30px;
+  color: #000000;
+  background-color: rgb(0, 195, 255);
+  font-weight: bold;
+  font-size: medium;
+  text-align: center;
+}
+
+#square-img {
+  border-radius: 0%;
+}
+
+#container {
+  padding: 20px;
+}
+
+#ccarousel {
+  text-align: center;
+}
+
+.carousel-inner img {
+  margin: auto;
+}
+
+#skills {
+  text-align: center;
+}
+
+.intro {
+  text-align: center;
+}
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+  filter: invert(100%);
+}
+
+.fakeimg {
+  height: 200px;
+  background: #4c4c;
+  box-shadow: 2px 2px 0px #666666;
